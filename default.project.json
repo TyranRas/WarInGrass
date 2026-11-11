@@ -1,0 +1,28 @@
+{
+  "name": "WarInGrass",
+  "servePort": 34900,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "WarInGrassShared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "WarInGrassServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "WarInGrass": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}

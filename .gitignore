@@ -1,0 +1,11 @@
+# Studio lock file (made while the place is open)
+*.rbxl.lock
+*.rbxlx.lock
+
+# Builds made by rojo build (the real place is WarInGrass.rbxl)
+*.rbxlx
+
+# Tools and system junk
+.vscode/
+Thumbs.db
+.DS_Store
